@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 0;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .container nav {
+  max-width: 1200px;
+  margin: auto;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+header .container nav ul li span {
+  font-size: 25px;
+}
+header .container nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  background-color: #64e3ff;
+  padding: 10px 20px;
+}
+
+main {
+  background-color: #000;
+  color: white;
+  padding: 100px 0;
+  max-width: 100%;
+}
+main .section1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main .section1 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section1 .container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+main .section1 .container .left .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .section1 .container .left .text h2 {
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, Times, serif;
+}
+main .section1 .container .left .text p {
+  font-size: 15px;
+}
+main .section1 .container .left .button {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+main .section1 .container .left .button #first {
+  text-decoration: none;
+  color: #000;
+  background-color: #64e3ff;
+  padding: 10px 26px;
+  font-size: 15px;
+  text-align: center;
+}
+main .section1 .container .left .button #second {
+  text-decoration: none;
+  color: #64e3ff;
+  background-color: #000;
+  padding: 10px 40px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px #64e3ff solid;
+}
+main .section1 .container .left .statistics {
+  margin-top: 40px;
+  display: flex;
+  gap: 50px;
+}
+main .section1 .container .left .statistics .statistic {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+main .section1 .container .left .statistics .statistic span {
+  font-size: 20px;
+}
+main .section1 .container .left .statistics .statistic p {
+  font-size: 14px;
+}
+main .section1 .container .left .statistics .statistic2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+  padding: 0 30px;
+}
+main .section1 .container .left .statistics .statistic2 span {
+  font-size: 20px;
+}
+main .section1 .container .left .statistics .statistic2 p {
+  font-size: 14px;
+}
+main .section1 .container .right {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px 50px 20px rgba(255, 255, 255, 0.212);
+  border-radius: 10%;
+}
+main .section1 .container .right .image {
+  height: 350px;
+  width: 300px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .section1 .container .right .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .section1 .container .right .text {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main .section1 .container .right .text .box {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+main .section1 .container .right .text .box p {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #000;
+}
+main .section1 .container .right .text .box span {
+  font-size: 16px;
+  font-weight: 900;
+  color: #000;
+}
+main .section1 .container .right .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px 0;
+}
+main .section1 .container .right .button #buy {
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  padding: 10px 26px;
+  font-size: 15px;
+  text-align: center;
+}
+main .section1 .container .right .button #view {
+  text-decoration: none;
+  color: #000;
+  background-color: white;
+  padding: 10px 40px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px black solid;
+}
+main .section2 {
+  max-width: 1200px;
+  margin: 150px auto;
+}
+main .section2 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .section2 .container span {
+  font-size: 20px;
+}
+main .section2 .container .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .section2 .container .boxes .box {
+  background-color: white;
+  width: 270px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section2 .container .boxes .box .image {
+  width: 270px;
+  height: 100px;
+}
+main .section2 .container .boxes .box .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section2 .container .boxes .box .info {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .boxes .box .info .user {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 6px;
+}
+main .section2 .container .boxes .box .info .user .photo {
+  width: 50px;
+  height: 50px;
+}
+main .section2 .container .boxes .box .info .user .photo img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section2 .container .boxes .box .info .user .name {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .boxes .box .info .user .name span {
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+}
+main .section2 .container .boxes .box .info .user .name p {
+  font-size: 13px;
+  color: #a9aaaa;
+  font-weight: lighter;
+}
+main .section2 .container .boxes .box .info .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+main .section2 .container .boxes .box .info .text .text1 {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .boxes .box .info .text .text1 p {
+  color: #a9aaaa;
+  font-size: 13px;
+}
+main .section2 .container .boxes .box .info .text .text1 span {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+main .section2 .container .boxes .box .info .text a {
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  padding: 10px 20px;
+}
+main .section2 .container .boxes .box .info .img_boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+}
+main .section2 .container .boxes .box .info .img_boxes .img {
+  width: 100px;
+  height: 100px;
+}
+main .section2 .container .boxes .box .info .img_boxes .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section2 .container .boxes .box .info .img_boxes .img3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+main .section2 .container .boxes .box .info .img_boxes .img3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section2 .container .boxes .box .info .img_boxes .img3 .card {
+  width: 80px;
+  height: 100px;
+  background-color: rgba(29, 30, 31, 0.64);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+}
+main .section3 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main .section3 .container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+main .section3 .container .image {
+  width: 400px;
+  height: 400px;
+}
+main .section3 .container .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section3 .container .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section3 .container .text h2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+main .section3 .container .text .input {
+  background-color: #323434;
+  padding: 0 10px;
+}
+main .section3 .container .text .input input {
+  outline: none;
+  width: 400px;
+  height: 50px;
+  background-color: #323434;
+  padding: 10px;
+  color: #a9aaaa;
+  border: none;
+}
+main .section3 .container .text .input a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background-color: #64e3ff;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  border-top: 1px rgba(255, 255, 255, 0.559) solid;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    padding: 20px;
+  }
+  main {
+    padding: 20px;
+  }
+  footer {
+    padding: 20px;
+  }
+  header .container {
+    max-width: 100%;
+  }
+  main .section1 .container .left,
+  main .section1 .container .right {
+    width: 100%;
+  }
+  main .section2 .container {
+    margin: 30px auto;
+  }
+  footer .container {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  main .section2 .container .boxes {
+    gap: 50px;
+  }
+  main .section3 .container .text h2 {
+    font-size: 20px;
+  }
+  main .section3 .container .text .input input {
+    width: 70%;
+    padding: 10px;
+  }
+  main .section3 .container .text .input a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  main .section1 .container {
+    gap: 30px;
+  }
+  main .section3 .container .image {
+    width: 300px;
+    height: 300px;
+  }
+  main .section3 .container .text h2 {
+    font-size: 20px;
+  }
+  main .section3 .container .text .input input {
+    width: 65%;
+    padding: 10px;
+  }
+  main .section3 .container .text .input a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 676px) {
+  main .section1 .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section1 .container .left {
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section1 .container .right {
+    width: 100%;
+  }
+  main .section1 .container .right .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section1 .container .right .image img {
+    width: 100%;
+  }
+  main .section1 .container .left .text h2 {
+    font-size: 25px;
+  }
+  main .section1 .container .left .button #first {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  main .section1 .container .left .button #second {
+    padding: 10px 30px;
+    font-size: 13px;
+    border: 2px solid #64e3ff;
+  }
+  main .section2 .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section2 .container .boxes {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section3 .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .container {
+    flex-direction: row;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #2c2b2b;
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px rgba(169, 170, 170, 0.568627451) solid;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .container nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+header .container nav ul li {
+  font-size: 15px;
+}
+header .container nav ul li #NFT {
+  background-color: #2c2b2b;
+  color: #fff;
+}
+header .container nav ul li #NFT span {
+  font-size: 20px;
+}
+header .container nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  background-color: #64e3ff;
+  padding: 10px 20px;
+}
+header .container nav ul #search {
+  background-color: rgba(57, 55, 55, 0.4274509804);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+header .container nav ul #search input {
+  border: none;
+  outline: none;
+  background-color: rgba(57, 55, 55, 0.4274509804);
+  width: 500px;
+  padding: 10px;
+}
+
+main {
+  background-color: #2c2b2b;
+  color: white;
+  padding: 50px 0;
+  max-width: 100%;
+  position: relative;
+}
+main .section1 {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main .section2 {
+  margin: 50px auto;
+  max-width: 1200px;
+}
+main .section2 .container {
+  width: 100%;
+  display: flex;
+}
+main .section2 .container .left {
+  width: 50%;
+}
+main .section2 .container .left .image {
+  height: 450px;
+  width: 400px;
+  background-color: #2c2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .section2 .container .left .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .section2 .container .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .section2 .container .right h1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+main .section2 .container .right a {
+  text-decoration: none;
+}
+main .section2 .container .right a .box {
+  background-color: #2c2b2b;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section2 .container .right a .box .info {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .right a .box .info .user {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: start;
+  gap: 10px;
+}
+main .section2 .container .right a .box .info .user .photo {
+  width: 50px;
+  height: 50px;
+}
+main .section2 .container .right a .box .info .user .photo img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section2 .container .right a .box .info .user .name {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+main .section2 .container .right a .box .info .user .name span {
+  font-size: 13px;
+  color: #fff;
+  font-weight: lighter;
+}
+main .section2 .container .right a .box .info .user .name p {
+  font-size: 16px;
+  color: #a9aaaa;
+  font-weight: bolder;
+}
+main .section2 .container .right p {
+  font-size: 15px;
+}
+main .section2 .container .right .statistics {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+main .section2 .container .right .statistics .statistic {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .right .statistics .statistic span {
+  color: #60f8af;
+}
+main .section2 .container .right .statistics .statistic1 {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px rgba(255, 255, 255, 0.445) solid;
+  padding-left: 15px;
+}
+main .section2 .container .right .statistics .statistic1 span {
+  color: #60f8af;
+}
+main .section2 .container .right .input {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+main .section2 .container .right .input input {
+  border: none;
+  outline: none;
+  background-color: #2c2b2b;
+  padding: 0 10px;
+}
+main .section2 .container .right .input .dropdown {
+  background-color: #2c2b2b;
+}
+main .section2 .container .right .input .dropdown button {
+  color: #615e5e;
+  border: none;
+  outline: none;
+}
+main .section2 .container .right .button {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px 0;
+}
+main .section2 .container .right .button #buy {
+  text-decoration: none;
+  color: #63E3FF;
+  background-color: #2c2b2b;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px #63E3FF solid;
+}
+main .section2 .container .right .button #place {
+  text-decoration: none;
+  color: #000;
+  background-color: #63E3FF;
+  padding: 10px 40px;
+  font-size: 18px;
+  text-align: center;
+}
+main .section2 .container .right .button #kecid {
+  text-decoration: none;
+  width: 500px;
+  height: 550px;
+  background-color: crimson;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  display: flex;
+  color: #fff;
+}
+main .section2 .container .right .button #kecid .detail {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  gap: 20px;
+}
+main .section2 .container .right .button #kecid .detail h2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+main .section2 .container .right .button #kecid .detail .image {
+  width: 100%;
+  display: flex;
+}
+main .section2 .container .right .button #kecid .detail .image .left {
+  width: 150px;
+  height: 150px;
+}
+main .section2 .container .right .button #kecid .detail .image .left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section2 .container .right .button #kecid .detail .image .right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+}
+main .section2 .container .right .button #kecid .detail .image .right h4 {
+  font-size: 20px;
+}
+main .section2 .container .right .button #kecid .detail .image .right p {
+  font-size: 13px;
+}
+main .section2 .container .right .button #kecid .detail .text {
+  width: 100%;
+  display: flex;
+  gap: 70px;
+}
+main .section2 .container .right .button #kecid .detail .text .price {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .right .button #kecid .detail .text .price p {
+  font-size: 15px;
+}
+main .section2 .container .right .button #kecid .detail .text .price h4 {
+  font-size: 17px;
+}
+main .section2 .container .right .button #kecid .detail .text .quantify {
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .right .button #kecid .detail .text .quantify p {
+  font-size: 15px;
+}
+main .section2 .container .right .button #kecid .detail .text .quantify h4 {
+  font-size: 17px;
+}
+main .section2 .container .right .button #kecid .detail .total {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .section2 .container .right .button #kecid .detail .total p {
+  font-size: 15px;
+}
+main .section2 .container .right .button #kecid .detail .total h4 {
+  font-size: 17px;
+}
+main .section2 .container .right .button #kecid .detail button {
+  background-color: #64e3ff;
+  color: #000;
+  padding: 10px;
+}
+
+footer {
+  background-color: #2c2b2b;
+  color: #fff;
+  padding: 10px 0;
+  border-top: 1px rgba(255, 255, 255, 0.559) solid;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=detail.css.map */

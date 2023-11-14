@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px rgba(169, 170, 170, 0.568627451) solid;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .container nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+header .container nav ul li {
+  font-size: 15px;
+}
+header .container nav ul li #Explore {
+  font-size: 15px;
+}
+header .container nav ul li #NFT {
+  background-color: #000;
+  color: #fff;
+}
+header .container nav ul li #NFT span {
+  font-size: 20px;
+}
+header .container nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  background-color: #64e3ff;
+  padding: 10px 20px;
+}
+header .container nav ul #search {
+  background-color: rgba(57, 55, 55, 0.4274509804);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+header .container nav ul #search input {
+  border: none;
+  outline: none;
+  background-color: rgba(57, 55, 55, 0.4274509804);
+  width: 500px;
+  padding: 10px;
+}
+
+main {
+  background-color: #000;
+  color: white;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+main .container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+main .container .section1 {
+  max-width: 25%;
+}
+main .container .section1 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+main .container .section1 .container .dropdown {
+  border: 1px #fdfbfb solid;
+  padding: 8px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .container .section1 .container .dropdown button {
+  color: #fff;
+  border: none;
+  outline: none;
+}
+main .container .section1 .container .status {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .container .section1 .container .status .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section1 .container .status .check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section1 .container .filetype {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px rgba(253, 251, 251, 0.5411764706) solid;
+}
+main .container .section1 .container .filetype .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section1 .container .filetype .check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section1 .container .price {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px rgba(253, 251, 251, 0.5411764706) solid;
+  padding-top: 10px;
+}
+main .container .section1 .container .price .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section1 .container .collection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px rgba(253, 251, 251, 0.5411764706) solid;
+  padding-top: 10px;
+}
+main .container .section1 .container .collection .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section1 .container .currency {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px rgba(253, 251, 251, 0.5411764706) solid;
+}
+main .container .section1 .container .currency .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .section2 {
+  max-width: 75%;
+}
+main .container .section2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+main .container .section2 .container .head {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+main .container .section2 .container .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+main .container .section2 .container .boxes a {
+  text-decoration: none;
+}
+main .container .section2 .container .boxes a .box {
+  background-color: rgba(34, 33, 33, 0.5294117647);
+  width: 273px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main .container .section2 .container .boxes a .box .image {
+  background-color: #000;
+  width: 230px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container .section2 .container .boxes a .box .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .container .section2 .container .boxes a .box .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .container .section2 .container .boxes a .box .info .user {
+  display: flex;
+}
+main .container .section2 .container .boxes a .box .info .user .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  color: #fff;
+}
+main .container .section2 .container .boxes a .box .info .user .name span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container .section2 .container .boxes a .box .info .user .name p {
+  font-size: 13px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+main .container .section2 .container .boxes a .box .info .text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+main .container .section2 .container .boxes a .box .info .text .text1 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+main .container .section2 .container .boxes a .box .info .text .text1 p {
+  font-size: 14px;
+}
+main .container .section2 .container .boxes a .box .info .text .text1 span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  border-top: 1px rgba(255, 255, 255, 0.559) solid;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    padding: 20px;
+  }
+  main {
+    padding: 20px;
+  }
+  footer {
+    padding: 20px;
+  }
+  header .container {
+    max-width: 100%;
+  }
+  footer .container {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  header #Explore {
+    display: none;
+  }
+  main .container .section1 .container {
+    flex-direction: column;
+  }
+  main .container .section1 .container .dropdown,
+  main .container .section1 .container .status,
+  main .container .section1 .container .filetype,
+  main .container .section1 .container .price,
+  main .container .section1 .container .collection,
+  main .container .section1 .container .currency {
+    margin-top: 20px;
+  }
+  main .container .section1 .container .head i {
+    margin-left: 5px;
+  }
+  main .container .section1 .container .check {
+    display: flex;
+    align-items: center;
+  }
+  main .container .section1 .container .check label {
+    margin-right: 10px;
+  }
+  main .container .section1 .container .dropdown {
+    width: 70%;
+  }
+  main .container .section1 .container .dropdown button {
+    font-size: 12px;
+  }
+  main .container .section2 .container .boxes {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header ul {
+    justify-content: space-around;
+  }
+  header #search {
+    width: 70%;
+  }
+  header a {
+    width: 30%;
+    font-size: 10px;
+  }
+  header #search input {
+    display: none;
+  }
+}
+@media only screen and (max-width: 695px) {
+  main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  main .container .section1 .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+  main .container .section1 .container .status,
+  main .container .section1 .container .filetype,
+  main .container .section1 .container .price,
+  main .container .section1 .container .collection,
+  main .container .section1 .container .currency {
+    display: none;
+  }
+  main .container .section2 .container .head h5 {
+    font-size: 15px;
+  }
+  main .container .section2 .container .head p {
+    display: none;
+  }
+  main .container .section2 .container .boxes {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .container {
+    flex-direction: row;
+    font-size: 12px;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=search.css.map */
